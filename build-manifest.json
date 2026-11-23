@@ -1,0 +1,9 @@
+{
+  "converterVersion": "1.0.0",
+  "templateVersion": "v1-capacitor-6.2.1",
+  "capacitorVersion": "6.2.1",
+  "nodeVersion": "22",
+  "jdkVersion": "17",
+  "buildSystem": "Gradle 8.7 / AGP 8.2+",
+  "generatedAt": "2026-11-23T12:12:20.547Z"
+}
