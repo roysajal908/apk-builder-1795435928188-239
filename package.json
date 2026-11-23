@@ -1,0 +1,24 @@
+{
+  "name": "com-aistudio-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx cap sync android",
+    "start": "npx cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.2.1",
+    "@capacitor/core": "6.2.1",
+    "@capacitor/app": "6.0.3",
+    "@capacitor/splash-screen": "6.0.4",
+    "@capacitor/camera": "6.1.3",
+    "@capacitor/geolocation": "6.1.1",
+    "@capacitor/local-notifications": "6.1.3",
+    "@capacitor/status-bar": "6.0.2",
+    "@capacitor/haptics": "6.0.2",
+    "@capacitor/network": "6.0.3",
+    "@capacitor/keyboard": "6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.2.1"
+  }
+}
