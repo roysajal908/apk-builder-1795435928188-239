@@ -1,0 +1,34 @@
+{
+  "appId": "com.aistudio.app",
+  "appName": "My AI App",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "backgroundColor": "#059669",
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#059669"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#059669ff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP"
+    },
+    "StatusBar": {
+      "overlaysWebView": false,
+      "style": "DARK",
+      "backgroundColor": "#059669"
+    }
+  },
+  "server": {
+    "url": "https://ais-pre-pvkbi5rud2t3iepiz3zgdr-210298108505.asia-southeast1.run.app/app#dashboard",
+    "cleartext": true,
+    "allowNavigation": [
+      "*"
+    ]
+  }
+}
